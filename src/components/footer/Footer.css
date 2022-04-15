@@ -1,0 +1,78 @@
+.footer{
+   background-color: #4c8790;
+   padding-top: 50px; 
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer p{
+    font-size: 19px;
+    color: white;
+    
+}
+.top{
+    margin-bottom: 30px;
+}
+
+.buttom{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.buttom p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.foot{
+    width: 60%;
+}
+
+@media screen  and (max-width:780px){
+    .foot{
+        width: 90%;
+    }
+
+    
+}
+
+.scrolltotop{
+    position: absolute;
+    display: block;
+    align-items: right;
+    right: 5%;
+    margin-top: 100px;
+    
+}
+
+
+.scrolltotop img{
+    height: 50px;
+    width: 20px;
+    border: 2px solid white;
+    background-color: rgb(209, 200, 200);
+    padding: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+@media screen and (max-width:670px){
+    .scrolltotop{
+        margin-top: 100px;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .scrolltotop{
+        margin-top: 50px;
+    }
+    
+}

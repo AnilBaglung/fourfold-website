@@ -1,0 +1,157 @@
+.container{
+    padding: 0;
+    margin-top:-15px;
+    display: flex;
+    flex-direction:column;
+    height: 120vh;
+    background-image:url('../static/1.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin-top: 1%;
+    height: 100px;
+    position: absolute;
+    background-color: snow;
+    z-index: 1;
+}
+.nav-logo{
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+    
+}
+.nav-logo img{
+    width: 100%;
+    padding-left: 25px;
+    margin-top: 5px;
+
+}
+
+.mob-icon{
+    display: none;
+}
+.navlinks{
+    justify-content: flex-start;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    list-style: none;
+
+}
+.nav-menu li{
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    list-style: none;
+    transition: 0.5s ease-in;
+}
+
+
+
+.nav-menu li:hover{
+    color: green;
+    font-weight: 600;
+    transform: scale(1.1);
+}
+.nav-menu li:nth-last-child(1):hover{
+    border: none;
+}
+
+button{
+    font-size: 20px;
+    background-color:green;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:830px){
+    .navlinks ul li{
+        font-size: 16px;
+    }
+    button{
+        font-size: 16px;
+    }
+}
+
+
+@media  screen and (max-width:780px){
+
+    .mob-icon{
+        display: flex;
+        position: absolute;
+        top: 40px;
+        right: 50px;
+        justify-content: flex-end;
+        
+    }
+    .mob-icon .fa-solid{
+        font-size: 40px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-menu li{
+        font-size: 30px;
+    }
+
+    .nav-menu-active{
+        height: 65vh;
+        background-color: rgb(137, 145, 137);
+        list-style: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        text-align: center;
+        padding-top: 0px;
+
+    }
+
+    .nav-menu-active li{
+        padding-top: 20px;
+        line-height: 30px;
+        font-size: 50px;
+        cursor: pointer;
+        vertical-align: center;
+    }
+    .nav-menu-active li:hover{
+        background-color: green;
+    }
+
+    .navlinks ul li{
+        font-size: 25px;
+        vertical-align: center;
+    }
+    button{
+        font-size: 25px;
+    }
+    button:hover{
+        background-color: blue;
+    }
+
+
+}

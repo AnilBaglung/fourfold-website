@@ -1,0 +1,155 @@
+.about{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: center;
+}
+@media screen and (min-width:1000px) {
+    .about{
+        margin-top: 150px;
+    }
+    
+}
+
+.aboutus{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.aboutus p{
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 22px;
+    color: #6b6b6b;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+    line-height: 2.4rem;
+}
+
+.aboutus h1{
+    color: #4c8790;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.about-row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-column{
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.about-column img{
+    width: 100%;
+}
+.about-column h2{
+    color: #4c8790;
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: left;
+
+}
+.about-column h3{
+    color: #4c8790;
+    text-align: left;
+    margin-top: 5px;
+}
+.about-column p{
+    color: #6b6b6b;
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom: 0px;
+}
+
+.readmore{
+    cursor: pointer;
+    
+}
+
+.readmore:hover{
+    color: red;
+    transform:scaleZ(1.2);
+}
+hr{
+    width: 85px;
+    background-color: green;
+}
+
+ul{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #6b6b6b;
+    list-style: decimal;
+    line-height: 30px;
+}
+
+ul li{
+    padding-bottom:20px;
+}
+
+
+.show-less{
+    display: none;
+}
+
+.show-more{
+    display: flex;
+    flex-direction: column;
+}
+
+.show-list{
+    display: none;
+}
+
+.hide-list{
+    display: flex;
+}
+
+.hide-list ul{
+    list-style: decimal;
+}
+
+@media screen and (max-width:780px) {
+    .about-row{
+    flex-direction: column;
+    }
+    .about-column{
+        margin-bottom: 50px;
+    }
+    .aboutus h1{
+        font-size: 40px;
+    }
+    .aboutus p{
+        font-size: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .about-column p{
+        font-size: 17px;
+    }
+    
+}
+
+.email{
+    margin-top: 20px;
+}
+.email p{
+    margin: 0;
+    font-weight: 600;
+}
+
+
+
+

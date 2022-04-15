@@ -1,0 +1,33 @@
+.hero-text{
+    position: absolute;
+    top: 60%;
+    left:5%;
+}
+.hero-text h1{
+    font-size: 55px;
+    color: #1d3c41;
+}
+@media screen and (max-width:1050px) {
+    .hero-text{
+        top: 50%;
+    }
+    .hero-text h1{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:780px) {
+    .hero-text{
+        top: 50%;
+    }
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:580px) {
+    .hero-text{
+        top: 50%;
+    }
+    .hero-text h1{
+        font-size: 30px;
+    }
+}
