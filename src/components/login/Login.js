@@ -39,7 +39,7 @@ const Login = () => {
     <>
     <section className='login'>
         <div className='nav-logo-img'>
-            <img src='/static/logo.png' className='fourfold-logo' alt=''></img>
+            <img src='./static/logo.png' className='fourfold-logo' alt=''></img>
         </div>
         <div className='login-form'>
         <div className='form-content'>
